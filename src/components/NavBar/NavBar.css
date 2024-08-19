@@ -1,0 +1,50 @@
+.NavBar .Container {
+  display: flex;
+  padding: 1rem 10%;
+  align-items: center;
+}
+
+.NavBar .Container .Logo__Container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5rem;
+}
+.selected {
+  background: rebeccapurple !important;
+}
+.NavBar .Container .Logo__Container .Logo {
+  font-size: 1.33rem;
+  margin: -0.5rem 0;
+  text-transform: lowercase;
+}
+
+.NavBar .Container .Logo__Container .SubLogo__Text {
+  line-height: 0.75rem;
+  color: steelblue;
+  text-transform: lowercase;
+  font-size: 0.75rem;
+}
+
+.NavBar .Container .Links {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+}
+
+.NavBar .Container .Links li {
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  margin: 0 1rem;
+  transition: all 0.2s;
+}
+
+.NavBar .Container .Links li .Active {
+  color: steelblue;
+  font-weight: 500;
+}
+
+.NavBar .Container .Links li:hover {
+  color: steelblue;
+  letter-spacing: 0.02rem;
+  font-weight: 300;
+}

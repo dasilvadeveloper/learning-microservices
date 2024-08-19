@@ -1,0 +1,83 @@
+.Register {
+  height: 100vh;
+  background: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Register__Form {
+  background-color: white;
+  padding: 4rem !important;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  max-width: 600px;
+}
+
+.Register__Form .Title {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.Register__Form .SubTitle {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.Register__Form .Name__Container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Register__Form .Name__Container input {
+  width: 230px !important;
+}
+
+input {
+  padding: 1rem;
+  border: steelblue 1.5px solid;
+  border-radius: 0.2rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 0;
+}
+
+input {
+  margin-top: 0.2rem;
+}
+
+button[type="submit"] {
+  padding: 1rem;
+  float: right;
+  background: steelblue;
+  border: rgb(33, 68, 97) 1.5px solid;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  transition: all 200ms;
+}
+
+button[type="submit"]:hover {
+  background: rgb(91, 146, 190);
+}
+
+button[type="submit"]:active {
+  background: rgb(52, 103, 144)
+}
+
+
+button.Sent{
+  background-color: yellowgreen;
+}
+
+button.Sent:hover {
+  background: rgb(162, 215, 57);
+  cursor: not-allowed;
+}
+
+button.Sent:active {
+  background: rgb(114, 155, 34)
+}
