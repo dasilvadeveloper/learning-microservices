@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/learning-microservices/static/css/main.80dc809e.css",
+    "main.js": "/learning-microservices/static/js/main.9f8ee280.js",
+    "index.html": "/learning-microservices/index.html",
+    "main.80dc809e.css.map": "/learning-microservices/static/css/main.80dc809e.css.map",
+    "main.9f8ee280.js.map": "/learning-microservices/static/js/main.9f8ee280.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80dc809e.css",
+    "static/js/main.9f8ee280.js"
+  ]
+}
